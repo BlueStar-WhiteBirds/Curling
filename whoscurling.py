@@ -66,7 +66,7 @@ def parse_csv(file,day):
     get_members(members,day)
         
 def main():
-    if (len(sys.argv) < 2):
+    if (len(sys.argv) < 3):
         print ("Provide the member sign up csv and the day to look at")
         print ("python3 whoscurling.py <the downloaded csv from gsheet> <The day of choice>")
         print ("e.g. python3 whoscurling.py curling_registration.csv M")
